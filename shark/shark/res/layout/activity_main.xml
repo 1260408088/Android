@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:itheima="http://schemas.android.com/apk/res/com.example.shark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+	<LinearLayout 
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:background="@drawable/title_red_bg"
+	    >
+	    <ImageButton 
+	        android:id="@+id/ib_toggle"
+	        android:layout_marginLeft="10dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:background="@null"
+	        android:src="@drawable/img_menu"
+	        />
+	</LinearLayout>
+    <com.itcast.switchs.ui.ToggleView
+        android:id="@+id/toggleView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_check"
+        style="@style/CustomCheckboxTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/toggleView"
+        android:layout_marginTop="29dp"
+        android:layout_marginLeft="105dp"
+        android:text="开启震动"
+        android:textColor="#f000" />
+    
+    
+    
+    
+</RelativeLayout>
