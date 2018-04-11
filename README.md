@@ -11,7 +11,8 @@
 <center>
 <img src="https://github.com/1260408088/Android/blob/master/shark/shark/res/drawable-xxhdpi/2.jpg" width="25%" height="25%" />
   <font color=#00ffff size=3>级别控制按钮</font>
-</center>
+</center><br/>
+
 ## 2.code------文字转二维码  2017.7
   将文字转换成为二维码，虽然网上有一大堆，但是自己做一个还是好玩
  <center>
