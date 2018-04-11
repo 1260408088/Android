@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="save_succ">保存成功</string>
+    <string name="no_iamge_save_fail">图片保存失败</string>
+    <string name="no_sdcard_save_fail">sd_Card不存在</string>
+</resources>
