@@ -20,3 +20,14 @@
   <font color=#00ffff size=3>基本布局</font>
 </center><br/>
 长按图片可以保存到相册
+
+## 3.zhbj------新闻客户端  2017.3
+项目中使用fragment嵌套分为多个模块
+<center>
+  <img src="https://github.com/1260408088/Android/blob/master/zhbj/zhbj74/res/drawable-xxhdpi/home.PNG" width="25%" height="25%" />
+  <font color=#00ffff size=3>基本布局</font>
+</center><br/>
+<center>
+  <img src="https://github.com/1260408088/Android/blob/master/zhbj/zhbj74/res/drawable-xxhdpi/zutu.PNG" width="25%" height="25%" />
+  <font color=#00ffff size=3>组图功能</font>
+</center><br/>
