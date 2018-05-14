@@ -29,5 +29,5 @@
 </center><br/>
 <center>
   <img src="https://github.com/1260408088/Android/blob/master/zhbj/zhbj74/res/drawable-xxhdpi/zutu.PNG" width="25%" height="25%" />
-  <font color=#00ffff size=3>基本布局</font>
+  <font color=#00ffff size=3>组图功能</font>
 </center><br/>
