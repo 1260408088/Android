@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+         style="@style/TitalTheme"
+         android:text="高级工具"
+        />
+    <TextView
+        android:id="@+id/tv_query_phone_adress"
+        android:drawableLeft="@android:drawable/star_on"
+        android:text="归属地查询"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/seletor_atool_item_bg"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        />
+    
+     <TextView
+        android:id="@+id/tv_sms_backup"
+        android:drawableLeft="@android:drawable/star_on"
+        android:text="短信备份"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/seletor_atool_item_bg"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        />
+      <TextView
+        android:id="@+id/tv_common_number"
+        android:drawableLeft="@android:drawable/star_on"
+        android:text="常用号码查询"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/seletor_atool_item_bg"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        />
+       <TextView
+        android:id="@+id/tv_clock_app"
+        android:drawableLeft="@android:drawable/star_on"
+        android:text="程序锁"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/seletor_atool_item_bg"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        />
+</LinearLayout>

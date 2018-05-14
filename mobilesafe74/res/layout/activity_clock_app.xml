@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <Button 
+            android:id="@+id/bt_unclock"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/tab_left_pressed"
+            android:text="未加锁"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            />
+          <Button 
+            android:id="@+id/bt_clock"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/tab_right_default"
+            android:text="已加锁"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/ll_uncolk_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_unlock"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="未加锁应用"
+            />
+        <ListView 
+	        android:id="@+id/lv_unlock"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"/>
+ 	</LinearLayout>
+   
+    <LinearLayout 
+        android:id="@+id/ll_colk_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_lock"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="以加锁应用"
+            />
+        <ListView 
+	        android:id="@+id/lv_lock"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"/>
+ </LinearLayout>
+ 
+</LinearLayout>

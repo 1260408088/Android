@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        style="@style/TitalTheme"
+        android:text="4.恭喜您，设置完成"
+        />
+    <CheckBox 
+        android:id="@+id/cb_box"
+        android:text="您没有开启防盗模式"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+    <LinearLayout 
+          android:gravity="center_horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+         
+          <ImageView 
+              android:background="@android:drawable/presence_invisible"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              />
+          <ImageView 
+              android:background="@android:drawable/presence_invisible"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              />
+           
+          <ImageView 
+              android:background="@android:drawable/presence_invisible"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              />
+          <ImageView 
+              android:background="@android:drawable/presence_online"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              />
+          </LinearLayout>
+          
+    <RelativeLayout 
+	          android:layout_height="match_parent"
+	          android:layout_width="match_parent"
+	          >
+          <ImageView 
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:background="@drawable/phone"
+              android:layout_centerInParent="true"
+              />
+          <Button 
+             style="@style/nexButTheme"
+            
+              />
+          <Button 
+              
+              style="@style/preButTheme"/>
+
+      </RelativeLayout>
+
+</LinearLayout>

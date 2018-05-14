@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitalTheme"
+        android:text="功能列表" />
+    <!--  跑马灯效果必须设置这三个属性
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+		让其 获取焦点
+    -->
+   <!--   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusableInTouchMode="true"
+        android:text="在路旁，孩子们在打雪仗。在路旁，姑娘们在等情郎。在路旁，一朵鲜花正在开放" /> -->
+
+
+
+        <!-- 使用java代码实现的获取焦点 -->
+        <com.itheima.mobilesafe.view.FocusTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="在路旁，孩子们在打雪仗。在路旁，姑娘们在等情郎。在路旁，一朵鲜花正在开放"
+        >
+        </com.itheima.mobilesafe.view.FocusTextView>
+        <!-- GridView中的控件垂直距离 -->
+     <GridView
+        android:id="@+id/gv_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalSpacing="5dp"  
+        android:numColumns="3" >
+    </GridView>
+
+</LinearLayout>

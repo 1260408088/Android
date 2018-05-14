@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <TextView 
+        style="@style/TitalTheme"
+        android:text="3.设置安全号码"
+        />
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="sim卡变更后\n就会发送报警电话至安全号码"
+        android:textSize="18sp"
+        />
+    <EditText 
+        android:id="@+id/et_phone_number"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        />
+    <Button 
+        android:id="@+id/bt_select_number"
+        android:background="@drawable/seletor_next_btn_bg"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="选择联系人"
+        />
+     <LinearLayout 
+          android:gravity="center_horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+         
+          <ImageView 
+              android:background="@android:drawable/presence_invisible"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              />
+          <ImageView 
+              android:background="@android:drawable/presence_invisible"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              />
+           <ImageView 
+              android:background="@android:drawable/presence_online"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              />
+          <ImageView 
+              android:background="@android:drawable/presence_invisible"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              />
+          </LinearLayout>
+          
+     	  <RelativeLayout 
+	          android:layout_height="match_parent"
+	          android:layout_width="match_parent"
+	          >
+          <ImageView 
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:background="@drawable/bind"
+              android:layout_centerInParent="true"
+              />
+          <Button 
+             style="@style/nexButTheme"
+            
+              />
+          <Button 
+              
+              style="@style/preButTheme"/>
+
+      </RelativeLayout>
+          
+        
+
+</LinearLayout>
